@@ -2,3 +2,6 @@
 a.out
 src/*
 !src/*.cpp
+*.dSYM/*
+test/*.dSYM/*
+*.csv

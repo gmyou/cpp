@@ -5,12 +5,12 @@ int main(){
     FILE *oFile = NULL;
     char fileName[] = "out.csv";
 
-	pFile = fopen( "test.txt", "r" );
+	pFile = fopen( "/data/outputAnd.csv", "r" );
 	if( pFile != NULL )
 	{
 		char strTemp[255];
 		char *pStr;
-        int maxLine = 4;
+        int maxLine = 100000;
         int i=0, j=0;
 
 		while( !feof( pFile ) )

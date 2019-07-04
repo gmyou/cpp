@@ -8,15 +8,15 @@ char inputString[MAX_SIZE];
 
 int  main(){
     // 파일 입력 (쓰기)
-    ofstream outFile("output.txt");
+    // ofstream outFile("/data/outputAnd.csv");
 
-    for(int i = 0 ; i < 10 ; i++){
-            outFile << i << endl;
-    }
+    // for(int i = 0 ; i < 10 ; i++){
+    //     outFile << i << endl;
+    // }
 
-    outFile.close();
+    // outFile.close();
     //파일 출력 (읽기)
-    ifstream inFile("output.txt");
+    ifstream inFile("/data/outputAnd.csv");
 
     while(!inFile.eof()){
         inFile.getline(inputString, 100);
