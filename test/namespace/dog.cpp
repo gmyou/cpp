@@ -1,17 +1,17 @@
-#include "cat.h"
+#include "dog.h"
 #include <iostream>
 
 using namespace std;
 
-namespace Cat
+namespace Dog
 {
-    Info cats[20];
+    Info dogs[20];
 
     int count;
 
-    void Info::Meow()
+    void Info::Bark()
     {
-        cout << "Meow~~~" << endl;
+        cout << "Bark~~~" << endl;
     }
     void CreateAll()
     {

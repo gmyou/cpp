@@ -1,7 +1,8 @@
 .vscode
-a.out
+*.out
 src/*
 !src/*.cpp
 *.dSYM/*
 test/*.dSYM/*
 *.csv
+*.o
