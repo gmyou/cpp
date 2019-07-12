@@ -5,10 +5,7 @@
  *      Author: johnwpurcell
  */
 
-
 #include "Animals.h"
-
-
 
 namespace jwp {
 

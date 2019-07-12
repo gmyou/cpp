@@ -23,4 +23,3 @@ void Cat::speak() {
 }
 
 }
-
