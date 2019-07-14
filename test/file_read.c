@@ -5,7 +5,7 @@ int main(){
     FILE *oFile = NULL;
     char fileName[] = "out.csv";
 
-	pFile = fopen( "/data/outputAnd.csv", "r" );
+	pFile = fopen( "test.txt", "r" );
 	if( pFile != NULL )
 	{
 		char strTemp[255];
