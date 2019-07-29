@@ -3,7 +3,8 @@ using namespace std;
 
 char* ReverseString(const char* src, int len)
 {
-    char* reverse = new char [len + 1];
+    // char* reverse = new char [len + 1];
+    char reverse[100];
     for (int i=0; i<len; ++i)
         reverse[i] = src[len-i-1];
 
