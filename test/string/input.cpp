@@ -4,11 +4,13 @@ using namespace std;
 
 int main()
 {
-    char cs[10];
+    char cs[20];
     string cpps;
 
-    cin >> cs;
-    cin >> cpps;
+    // cin >> cs;
+    // cin >> cpps;
+    cin.getline(cs, 20);
+    getline(cin, cpps);
 
     cout << "cs = " << cs << "\n";
     cout << "cpps = " << cpps << "\n";
