@@ -10,6 +10,7 @@ int main()
     // cin >> cs;
     // cin >> cpps;
     cin.getline(cs, 20);
+    cin.clear();
     getline(cin, cpps);
 
     cout << "cs = " << cs << "\n";
